@@ -40,6 +40,8 @@ public abstract class AMercuryColumn {
         containerPaint.setStyle(Paint.Style.FILL);
     }
 
+
+
     // 绘制水银容器，比如玻璃温度计的玻璃泡
     public abstract void drawContainer(Canvas canvas);
 
