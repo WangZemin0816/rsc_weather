@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">weather</string>
+    <!-- 百度地图开发者key -->
+    <string name="baidumap_key">o8VsucIWCdG6ZehCxOdyCW3OMNZDr8ae</string>
+    <!-- 和风天气开发者key -->
+    <string name="heweather_key">1933280f5a8049a2989407cea4b1a62e</string>
+    <!-- 和风天气主页-->
+    <string name="heweather_url">https://free-api.heweather.com/s6/weather</string>
+
+    <!-- 显示温度时，后边跟的温度符号-->
+    <string name="degree_symbol">°</string>
+</resources>

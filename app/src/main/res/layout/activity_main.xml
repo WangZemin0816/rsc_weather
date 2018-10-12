@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 天气主界面的主界面，显示城市、温度、天气等信息 -->
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- 显示城市以及工具栏的头部 -->
+    <include layout="@layout/weather_title" />
+
+
+
+    <!-- 下拉刷新的布局 -->
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.renshuchan.weather.view.ThermometerView
+            android:id="@+id/wwwwwww"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <com.renshuchan.weather.view.ThermometerView
+        android:id="@+id/qqqq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</android.support.constraint.ConstraintLayout>
