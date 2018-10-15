@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 温度计主界面显示温度计图片的界面 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!-- 板载温度计图片显示 -->
+    <com.renshuchan.weather.view.ThermometerView
+        android:id="@+id/board_thermometer"
+        android:layout_width="0dp"
+        android:layout_height="1000dp"
+        android:layout_weight="1"
+        />
+
+    <!-- 温度传感器图片显示 -->
+    <com.renshuchan.weather.view.ThermometerView
+        android:id="@+id/sensor_thermometer"
+        android:layout_width="0dp"
+        android:layout_height="1000dp"
+        android:layout_weight="1"
+        />
+</LinearLayout>

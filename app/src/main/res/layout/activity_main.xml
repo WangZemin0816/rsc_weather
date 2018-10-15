@@ -13,6 +13,8 @@
     <include layout="@layout/weather_title" />
 
 
+    <!-- 显示城市以及工具栏的头部 -->
+    <include layout="@layout/thermometer_view" />
 
     <!-- 下拉刷新的布局 -->
     <android.support.v4.widget.SwipeRefreshLayout
@@ -20,18 +22,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.renshuchan.weather.view.ThermometerView
-            android:id="@+id/wwwwwww"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-
 
     </android.support.v4.widget.SwipeRefreshLayout>
 
-    <com.renshuchan.weather.view.ThermometerView
-        android:id="@+id/qqqq"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
 </android.support.constraint.ConstraintLayout>
