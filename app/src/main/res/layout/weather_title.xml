@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<!-- 天气主界面的头部，可以显示城市以及菜单 -->
-<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/weather_title_layout"
+    android:id="@+id/tool_bar"
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize"
-    android:background="@color/colorWhite"
+    android:background="@color/weather_title_bg"
     app:popupTheme="@style/ToolbarPopupTheme"
-    app:subtitleTextColor="@color/colorFont">
+    app:subtitleTextColor="@color/weather_title_txt">
+
 
     <TextView
-        android:id="@+id/title_city"
+        android:id="@+id/title_city_pre"
+        android:text="当前城市:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:textColor="@color/colorFont"
+        android:textColor="@color/weather_title_txt"
         android:textSize="20sp"/>
-
+    <TextView
+        android:id="@+id/title_city"
+        android:text="杭州"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/title_city_pre"
+        android:layout_alignTop="@+id/title_city_pre"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/weather_title_txt"
+        android:textSize="20sp"/>
 
 </android.support.v7.widget.Toolbar>
 

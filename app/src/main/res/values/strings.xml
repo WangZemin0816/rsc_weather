@@ -7,6 +7,7 @@
     <!-- 和风天气主页-->
     <string name="heweather_url">https://free-api.heweather.com/s6/weather</string>
 
+    
     <!-- 显示温度时，后边跟的温度符号-->
     <string name="degree_symbol">°</string>
 </resources>

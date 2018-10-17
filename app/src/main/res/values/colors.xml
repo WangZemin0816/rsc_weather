@@ -9,7 +9,29 @@
     <color name="colorBlack">#000000</color>
     <color name="colorRed">#E91E63</color>
 
+    <!-- 天气界面主界面部分背景颜色 -->
+    <color name="weather_main_bg">#ffffff</color>
     <!-- 天气界面头部城市部分背景颜色 -->
-    <color name="weather_title">#FEFEFE</color>
+    <color name="weather_title_bg">#eeeeee</color>
+    <!-- 天气界面头部城市部分字体颜色 -->
+    <color name="weather_title_txt">#757575</color>
+    <!-- 天气界面显示当前天气的背景颜色 -->
+    <color name="weather_now_bg">#ffffff</color>
+    <!-- 天气界面显示当前天气的字体颜色 -->
+    <color name="weather_now_txt">#757575</color>
+    <!-- 天气界面显示当前天气的背景颜色 -->
+    <color name="weather_hourly_bg">#cccccc</color>
+    <!-- 天气界面显示当前天气的背景颜色 -->
+    <color name="weather_hourly_item_bg">#cccccc</color>
+    <!-- 天气界面显示当前天气的背景颜色 -->
+    <color name="weather_hourly_item_txt">#000000</color>
+    <!-- 天气界面中间间隔的背景颜色 -->
+    <color name="weather_space_bg">#bbbbbb</color>
+    <!-- 天气界面中间forecast模块背景 -->
+    <color name="weather_forecast_bg">#bbbbbb</color>
+    <!-- 天气界面中间forecast模块背景 -->
+    <color name="weather_forecast_item_bg">#bbbbbb</color>
+    <!-- 天气界面中间forecast模块背景 -->
+    <color name="weather_forecast_item_txt">#bbbbbb</color>
 </resources>
 

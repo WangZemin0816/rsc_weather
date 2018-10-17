@@ -2,7 +2,6 @@
 
 <!-- 天气主界面的主界面，显示城市、温度、天气等信息 -->
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_layout"
     android:layout_width="match_parent"
@@ -12,16 +11,14 @@
     <!-- 显示城市以及工具栏的头部 -->
     <include layout="@layout/weather_title" />
 
-
-    <!-- 显示城市以及工具栏的头部 -->
-    <include layout="@layout/thermometer_view" />
-
     <!-- 下拉刷新的布局 -->
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/swipe_refresh"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <!-- 显示当前的天气 -->
+        <include layout="@layout/weather_now" />
 
     </android.support.v4.widget.SwipeRefreshLayout>
 
