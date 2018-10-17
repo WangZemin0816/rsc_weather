@@ -10,4 +10,7 @@
     
     <!-- 显示温度时，后边跟的温度符号-->
     <string name="degree_symbol">°</string>
+
+    <!-- 显示温度时，后边跟的温度符号-->
+    <string name="author_info">MADE BY 任舒婵</string>
 </resources>

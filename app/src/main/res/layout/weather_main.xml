@@ -39,6 +39,13 @@
 
                 <include layout="@layout/weather_space"/>
 
+                <include layout="@layout/weather_aqi"/>
+
+                <include layout="@layout/weather_space"/>
+
+                <include layout="@layout/weather_suggestion"/>
+
+                <include layout="@layout/footer_author"/>
             </LinearLayout>
 
         </ScrollView>

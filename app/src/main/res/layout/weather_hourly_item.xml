@@ -27,7 +27,7 @@
         android:id="@+id/hout_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/colorFont"
+        android:textColor="@color/weather_hourly_item_txt"
         android:textSize="14sp"
         android:layout_above="@+id/hour_text"
         android:layout_centerHorizontal="true"

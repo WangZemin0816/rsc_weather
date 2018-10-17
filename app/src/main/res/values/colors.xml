@@ -33,5 +33,18 @@
     <color name="weather_forecast_item_bg">#bbbbbb</color>
     <!-- 天气界面中间forecast模块背景 -->
     <color name="weather_forecast_item_txt">#bbbbbb</color>
+    <!-- 天气界面中间forecast模块背景 -->
+    <color name="weather_aqi_bg">#bbbbbb</color>
+    <!-- 天气界面中间forecast模块背景 -->
+    <color name="weather_aqi_txt">#bbbbbb</color>
+    <!-- 天气界面中间forecast模块背景 -->
+    <color name="weather_suggestion_bg">#bbbbbb</color>
+    <!-- 天气界面中间forecast模块背景 -->
+    <color name="weather_suggestion_txt">#bbbbbb</color>
+    <!-- 页面底部作者信息背景颜色 -->
+    <color name="footer_author_bg">#bbbbbb</color>
+    <!-- 页面底部作者信息字体颜色 -->
+    <color name="footer_author_txt">#000000</color>
+
 </resources>
 
